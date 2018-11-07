@@ -1,0 +1,4 @@
+--bail
+--timeout 20s
+--colors
+--exclude test/test-firebase.js

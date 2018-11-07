@@ -1,0 +1,24 @@
+{
+  "name": "portfolio-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "mocha "
+  },
+  "author": "cloud strife",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "firebase": "^5.3.1",
+    "nodemailer": "^4.6.7",
+    "smtpc": "^0.1.2"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0"
+  },
+  "//" : "mocha test runner is best suited for chai assertions"
+}
